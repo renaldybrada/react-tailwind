@@ -1,8 +1,8 @@
 start:
-	HTTPS=true SSL_CRT_FILE=./.cert/cert.pem SSL_KEY_FILE=./.cert/key.pem npm start 
+	HTTPS=true SSL_CRT_FILE=./.cert/cert.pem SSL_KEY_FILE=./.cert/key.pem npm start && react-dotenv
 
 build: 
-	npm run build
+	react-dotenv && npm run build
 
 serve:
-	npm run serve
+	react-dotenv && npm run serve
