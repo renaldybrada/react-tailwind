@@ -9,6 +9,8 @@ React Tailwind Bolerplate package
 npm install 
 ```
 
+### Create `.env` file 
+
 ### Run development
 
 ```
