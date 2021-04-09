@@ -36,7 +36,7 @@ function Home() {
 
     return (
       <div className="">
-        <div className="flex justify-end px-8 h-12">
+        <div className="flex justify-end h-12">
           <GithubLink></GithubLink>
         </div>
         <div className="mt-16 flex flex-col">
