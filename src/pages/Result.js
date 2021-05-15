@@ -49,7 +49,7 @@ function Result() {
         <div className="mt-4 flex flex-col">
           <SearchForm oldValue={city}></SearchForm>
           {
-            cityWeather.name != undefined &&
+            cityWeather.name !== undefined &&
             <div className="bg-white px-5 shadow-md absolute bottom-20
             mx-5 sm:mx-52">
               <CityCard city={cityWeather}></CityCard>
