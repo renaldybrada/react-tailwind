@@ -41,7 +41,7 @@ function Home() {
         </div>
         <div className="mt-16 flex flex-col">
           <h1 className="text-gray-100 text-4xl flex justify-center mb-5">Weather App</h1>
-          <SearchForm></SearchForm>
+          <SearchForm oldValue=""></SearchForm>
           {isLoading &&
             <div className="mx-5
             sm:m-4 sm:mx-40 sm:mt-12 sm:px-12 sm:py-5">
