@@ -4,7 +4,7 @@ import SearchForm from 'components/SearchForm';
 import CityCard from 'components/CityCard';
 
 const WEATHER_API_KEY = '25bd41a729208e03e9d9de845fe94ab9';
-const BASE_URL = 'http://api.openweathermap.org/data/2.5/';
+const BASE_URL = 'https://api.openweathermap.org/data/2.5/';
 const initCities = ['malang', 'surabaya', 'solo', 'semarang', 'yogyakarta', 'jakarta', 'bandung', 
   'serang', 'banda aceh', 'medan', 'bengkulu', 'padang', 'lampung', 'palembang', 'balikpapan',
   'samarinda', 'kutai', 'banjarmasin', 'makassar', 'manado', 'gorontalo', 'kendari', 'denpasar', 'mataram',

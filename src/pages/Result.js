@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
 
 const WEATHER_API_KEY = '25bd41a729208e03e9d9de845fe94ab9';
-const BASE_URL = 'http://api.openweathermap.org/data/2.5/';
+const BASE_URL = 'https://api.openweathermap.org/data/2.5/';
 
 function Result() {
   const [cityWeather, setCityWeather] = useState({});
